@@ -7,12 +7,12 @@ type Data = {
 
 /**
  * @swagger
- * /api/hello:
+ * /api/hello2:
  *   get:
  *     description: Returns the hello world
  *     responses:
  *       200:
- *         description: hello world
+ *         description: hello world2
  */
 const handler = (req: NextApiRequest, res: NextApiResponse<Data>) => {
   res.status(200).json({ name: 'John Doe' })
